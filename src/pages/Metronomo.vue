@@ -34,10 +34,13 @@ export default {
   data () {
     return {
       bpm: 120,
-      // create two monophonic synths
+      // create player
+      player: new Tone.Player('cowbell.wav').toDestination(),
+      // create monophonic synth
       synthA: new Tone.FMSynth().toDestination(),
       loopA: new Tone.Loop(time => {
-        this.synthA.triggerAttackRelease('C3', '32n', time)
+        // this.synthA.triggerAttackRelease('C3', '32n', time)
+        this.player.start(time)
       }, '4n')
     }
   },
