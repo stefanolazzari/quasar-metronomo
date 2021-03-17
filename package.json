@@ -13,7 +13,8 @@
     "@quasar/extras": "^1.0.0",
     "core-js": "^3.6.5",
     "quasar": "^1.0.0",
-    "tone": "^14.7.77"
+    "tone": "^14.7.77",
+    "vue-webrtc": "^1.2.2"
   },
   "devDependencies": {
     "@quasar/app": "^2.0.0",
