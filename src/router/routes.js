@@ -8,7 +8,8 @@ const routes = [
       { path: '/metronomoTest01', component: () => import('pages/MetronomoTest01.vue') },
       { path: '/help', component: () => import('pages/Help.vue') },
       { path: '/audioBuffer', component: () => import('pages/AudioBuffer.vue') },
-      { path: '/player', component: () => import('pages/Player.vue') }
+      { path: '/player', component: () => import('pages/Player.vue') },
+      { path: '/videocall', component: () => import('pages/Videocall.vue') }
     ]
   },
 

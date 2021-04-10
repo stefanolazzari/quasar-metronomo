@@ -13,11 +13,6 @@
         />
       </q-toolbar>
 
-      <div class="q-px-lg q-pt-xl q-mb-md">
-        <div class="text-h3">Metronomo</div>
-        <div class="text-subtitle1">{{ todaysDate }}</div>
-      </div>
-      <q-img src="statics/metronomo.jpg" class="header-image absolute-top"/>
     </q-header>
 
 <q-drawer
@@ -76,6 +71,16 @@
 
               <q-item-section>
                 Player
+              </q-item-section>
+            </q-item>
+
+            <q-item exact to="/videocall" clickable v-ripple>
+              <q-item-section avatar>
+                <q-icon name="mdi-video" />
+              </q-item-section>
+
+              <q-item-section>
+                Videocall
               </q-item-section>
             </q-item>
 
